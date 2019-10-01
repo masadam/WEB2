@@ -1,0 +1,25 @@
+C reate	=> view form, koneksi, query
+R ead	=> koneksi, query, view
+U pdate	=> view form edit, koneksi, query
+	view form edit	=> Read (where clause)
+D elete	=> koneksi, query
+
+id	nama	username	action
+1	a 		a 			update | delete
+2	b 		b 			update | delete
+3	c 		c 			update | delete
+
+------------------------------------------
+
+C 	-> view form tambah, file action
+R 	-> view all data
+U 	-> view form edit, file action
+D 	-> file action
+
+create DB
+KATEGORI -> id_kategori INT AI, nama VARCHAR
+PRODUK -> id_produk INT AI, id_kategori INT, nama VARCHAR, harga INT
+STOK -> id_stok INT AI, id_produk INT, jumlah INT, timestamp TIMESTAMP
+
+materi uts sampai session
+open internet
